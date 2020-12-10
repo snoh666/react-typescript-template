@@ -1,12 +1,14 @@
 import React from 'react';
 
+import { Wrapper, Title } from './Header.styled';
+
 interface Props {}
 
 const Header: React.FC<Props> = () => {
   return (
-    <div>
-      <p>Hello from Header component</p>
-    </div>
+    <Wrapper>
+      <Title>Hello from Header component</Title>
+    </Wrapper>
   );
 };
 
