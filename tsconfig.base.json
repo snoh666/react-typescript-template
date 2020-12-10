@@ -12,7 +12,8 @@
       "@hocs/*":["hocs/*"],
       "@providers/*": ["providers/*"],
       "@lang/*":["lang/*"],
-      "@hooks/*": ["hooks/*"]
+      "@hooks/*": ["hooks/*"],
+      "@types/*": ["types/*"]
     }
   }
 }
