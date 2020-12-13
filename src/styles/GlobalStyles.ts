@@ -5,6 +5,7 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Titillium Web', sans-serif;
   }
   
   :root {
@@ -12,6 +13,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
+    background: ${({ theme }) => theme.colors.whiteSeven};
   }
 `;
 
