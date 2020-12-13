@@ -1,8 +1,11 @@
 module.exports = {
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
   extends: [
     'airbnb-typescript',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
   parserOptions: {
     project: './tsconfig.json',
@@ -24,6 +27,7 @@ module.exports = {
       },
     ],
     'import/no-unresolved': 'off',
+    'react/prop-types': 'off',
   },
   env: {
     browser: true,

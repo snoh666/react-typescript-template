@@ -19,11 +19,19 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react-jsx",
+    "typeRoots": [
+      "./types"
+    ]
   },
   "include": [
     "src",
-    ".eslintrc.js",
+    ".eslintrc.js"
+  ],
+  "exclude": [
     "config-overrides.js"
+  ],
+  "typeRoots": [
+    "./types"
   ]
 }
