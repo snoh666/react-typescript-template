@@ -29,7 +29,9 @@
     ".eslintrc.js"
   ],
   "exclude": [
-    "config-overrides.js"
+    "config-overrides.js",
+    "jest.config.js",
+    "jest/setupTests.js"
   ],
   "typeRoots": [
     "./types"
