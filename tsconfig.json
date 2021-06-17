@@ -31,7 +31,7 @@
   "exclude": [
     "config-overrides.js",
     "jest.config.js",
-    "jest/setupTests.js"
+    "jest/setupTests.ts"
   ],
   "typeRoots": [
     "./types"
