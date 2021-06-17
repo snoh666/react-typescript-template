@@ -4,6 +4,7 @@ module.exports = {
     testPathIgnorePatterns: ['/node_modules/', '/cache/'],
     roots: ['<rootDir>/src'],
     setupFilesAfterEnv: ['<rootDir>/jest/setupTests.js'],
+    snapshotSerializers: ['enzyme-to-json/serializer'],
     transformIgnorePatterns: [
         'node_modules/(?!(react-grid-layout|react-resizable|react-syntax-highlighter))/',
     ],
@@ -19,6 +20,5 @@ module.exports = {
         '@providers(.*)': '<rootDir>/src/providers$1',
         '@lang(.*)': '<rootDir>/src/lang$1',
         '@hooks(.*)': '<rootDir>/src/hooks$1',
-        '@tests(.*)': '<rootDir>/src/tests$1',
     },
 };

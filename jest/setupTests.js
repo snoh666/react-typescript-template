@@ -1,3 +1,5 @@
+require('@testing-library/jest-dom');
+
 const enzyme = require('enzyme');
 
 const Adapter = require('@wojtekmaj/enzyme-adapter-react-17');
