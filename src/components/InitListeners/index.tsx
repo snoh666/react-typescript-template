@@ -3,14 +3,14 @@ import { useDispatch } from 'react-redux';
 
 import { applyAuthListener } from '@redux/auth/actions';
 
-const InitListeners: React.FC = () => {
+const InitListeners: React.FC = ({ children }) => {
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(applyAuthListener());
   }, [dispatch]);
 
-  return null;
+  return <>{children}</>;
 };
 
 export default InitListeners;

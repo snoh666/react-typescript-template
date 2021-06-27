@@ -17,7 +17,6 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
     "typeRoots": [
@@ -26,10 +25,13 @@
   },
   "include": [
     "src",
-    ".eslintrc.js"
+    ".eslintrc.js",
+    "node_modules/@types/jest/index.d.ts"
   ],
   "exclude": [
-    "config-overrides.js"
+    "config-overrides.js",
+    "jest.config.js",
+    "jest/setupTests.js"
   ],
   "typeRoots": [
     "./types"
