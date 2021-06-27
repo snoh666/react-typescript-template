@@ -2,7 +2,7 @@
  
 Template for React App with already setup environment with most popular packages.
 
-<br/>Link to github repo: https://github.com/snoh666/react-typescript-boilerplate
+<br/>Main github repo [snoh666/react-typescript-boilerplate](https://github.com/snoh666/react-typescript-boilerplate)
 
 ## Contained packages
 
@@ -13,6 +13,7 @@ Template for React App with already setup environment with most popular packages
 - eslint & prettier configured into airbnb rules
 - typescript compiling
 - react-app-rewired (webpack aliases without ejecting)
+- jest + enzyme testing scripts
 
 ## Installing and starting
 
