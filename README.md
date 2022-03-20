@@ -13,7 +13,7 @@ Template for React App with already setup environment with most popular packages
 - eslint & prettier configured into airbnb rules
 - typescript compiling
 - react-app-rewired (webpack aliases without ejecting)
-- jest + enzyme testing scripts
+- jest + react testing library daj panie
 
 ## Installing and starting
 
