@@ -1,15 +1,10 @@
-import React, { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import { ReactNode } from 'react';
 
-import { applyAuthListener } from '@redux/auth/actions';
+interface InitListenersProps {
+  children: ReactNode;
+}
 
-const InitListeners: React.FC = ({ children }) => {
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(applyAuthListener());
-  }, [dispatch]);
-
+const InitListeners = ({ children }: InitListenersProps) => {
   return <>{children}</>;
 };
 
