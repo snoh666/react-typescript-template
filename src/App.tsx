@@ -15,9 +15,7 @@ const App: React.FC = () => {
       <InitListeners />
       <BrowserRouter>
         <Routes>
-          <Route path='/'>
-            <Main />
-          </Route>
+          <Route path='/' element={<Main />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
