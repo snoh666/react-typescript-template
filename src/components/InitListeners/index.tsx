@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 
 interface InitListenersProps {
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 const InitListeners = ({ children }: InitListenersProps) => {

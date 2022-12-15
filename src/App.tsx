@@ -1,7 +1,6 @@
-import React from 'react';
 import { ThemeProvider } from 'styled-components';
 
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import theme from '@styles/theme';
 import GlobalStyles from '@styles/GlobalStyles';
@@ -15,11 +14,11 @@ const App: React.FC = () => {
       <GlobalStyles />
       <InitListeners />
       <BrowserRouter>
-        <Switch>
-          <Route exact path='/'>
+        <Routes>
+          <Route path='/'>
             <Main />
           </Route>
-        </Switch>
+        </Routes>
       </BrowserRouter>
     </ThemeProvider>
   );

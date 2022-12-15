@@ -1,9 +1,10 @@
-module.exports = {
+/* eslint-disable import/no-anonymous-default-export */
+export default [{
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   extends: [
     'airbnb-typescript',
-    'prettier/@typescript-eslint',
+    'prettier',
     'plugin:prettier/recommended',
     'plugin:@typescript-eslint/recommended',
   ],
@@ -28,9 +29,12 @@ module.exports = {
     ],
     'import/no-unresolved': 'off',
     'react/prop-types': 'off',
+    'import/no-extraneous-dependencies': 'error',
+    'import/extensions': 'off',
+    'react/jsx-filename-extension': 'error',
   },
   env: {
     browser: true,
     es6: true,
   },
-};
+}];
