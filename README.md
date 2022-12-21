@@ -1,8 +1,8 @@
-# React TypeScript boilerplate
+# React TypeScript template
  
 Template for React App with already setup environment with most popular packages.
 
-<br/>Main github repo [snoh666/react-typescript-boilerplate](https://github.com/snoh666/react-typescript-boilerplate)
+<br/>Main github repo [snoh666/react-typescript-template](https://github.com/snoh666/react-typescript-template)
 
 ## Contained packages
 
