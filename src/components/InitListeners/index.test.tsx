@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render, screen } from '@testing-library/react';
 
 import InitListeners from '.';
 
@@ -7,12 +7,12 @@ jest.mock('react-redux');
 
 describe('components / InitListeners', () => {
   it('renders children when provided', () => {
-    const wrapper = shallow(
+    render(
       <InitListeners>
-        <div id='id' />
+        <div data-testid='id' />
       </InitListeners>
     );
 
-    expect(wrapper.find('#id')).toHaveLength(1);
+    expect(screen.getByTestId('id')).toBeTruthy();
   });
 });

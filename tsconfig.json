@@ -25,13 +25,13 @@
   },
   "include": [
     "src",
-    ".eslintrc.js",
     "node_modules/@types/jest/index.d.ts"
   ],
   "exclude": [
     "config-overrides.js",
     "jest.config.js",
-    "jest/setupTests.js"
+    "jest/setupTests.js",
+    "eslint.config.js"
   ],
   "typeRoots": [
     "./types"
