@@ -1,5 +1,5 @@
 # React TypeScript template
- 
+
 Template for React App with already setup environment with most popular packages.
 
 <br/>Main github repo [snoh666/react-typescript-template](https://github.com/snoh666/react-typescript-template)
@@ -13,7 +13,7 @@ Template for React App with already setup environment with most popular packages
 - eslint & prettier configured into airbnb rules
 - typescript compiling
 - react-app-rewired (webpack aliases without ejecting)
-- jest + enzyme testing scripts
+- jest + react testing library (RTL)
 
 ## Installing and starting
 
